@@ -19,14 +19,14 @@ wp-signup.php
 wp-trackback.php
 xmlrpc.php
 license.txt
-# index.php
+index.php
 .htaccess
 readme.html
 
 # except:
 # "mu-plugins", "plugins", "themes" directory
-wp-content/mu-plugins/
-!wp-content/plugins/
+# !wp-content/mu-plugins/
+# !wp-content/plugins/
 # !wp-content/themes/
 
 #save only the themes
@@ -47,6 +47,5 @@ node_modules/
 *.log
 *.sql
 *.sqlite
-
 
 
