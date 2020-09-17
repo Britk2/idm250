@@ -8,7 +8,6 @@
 	<li class="footer__item"> <a href="#" class="footer__link"><img class="github__logo" src="<?php echo get_template_directory_uri();?>/pic/github_logo.png" alt="github logo"></a></li>
 </ul> -->
 
-
 <div class="footer-full-menu">
 	<!-- <?php
 		wp_nav_menu([
@@ -22,7 +21,6 @@
 	?>
 	Copyright &copy; <?php echo date("Y"); ?> | <?php bloginfo('blogname'); ?>
 </div>
-
 
 </footer>
 </html>
