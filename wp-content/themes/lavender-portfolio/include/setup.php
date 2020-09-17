@@ -19,7 +19,7 @@ function include_css_files() {
     wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
     // Example of including a style local to your theme root
-    wp_enqueue_style('idm250-css', get_template_directory_uri() . '/css/style.css');
+    wp_enqueue_style('css', get_template_directory_uri() . '/css/style.css');
 }
 
 // When WP performs this action, call our function

@@ -2,23 +2,19 @@
 get_header();
 ?>
 
-<?php
-get_header();?>
-
 <!-- Search -->
 <section class="search_section">
-    <form action="/idm250" method="get">
-      <!-- <label for="searchField">Search</label> -->
-      <input type="text" name="s" id="searchField" value="<?php the_search_query(); ?>" placeholder="Search.." >
-      <select name="post_type" id="search_select">
-        <option value="" <?php echo $_GET['post_type'] == '' ? 'selected' : ''; ?>>All</option>
-        <option value="projects" <?php echo $_GET['post_type'] == 'projects' ? 'selected' : ''; ?>>Projects</option>
-        <option value="post" <?php echo $_GET['post_type'] == 'post' ? 'selected' : ''; ?>>Posts</option>
-      </select>
-      <input type="submit" value="Search" id="search_submit">
-    </form>
-  </section>
-
+		<form action="/" method="get">
+		<!-- <label for="searchField">Search</label> -->
+		<input type="text" name="s" id="searchField" value="<?php the_search_query(); ?>" placeholder="Search.." >
+		<select name="post_type" id="search_select">
+			<option value="" <?php echo $_GET['post_type'] == '' ? 'selected' : ''; ?>>All</option>
+			<option value="projects" <?php echo $_GET['post_type'] == 'projects' ? 'selected' : ''; ?>>Projects</option>
+			<option value="post" <?php echo $_GET['post_type'] == 'post' ? 'selected' : ''; ?>>Posts</option>
+		</select>
+		<input type="submit" value="Search" id="search_submit">
+		</form>
+	</section>
 <main class="search_page">
   <!-- Results -->
   <section class="search_results">
@@ -44,9 +40,6 @@ get_header();?>
   </section>
 
 </main>
-<?php get_footer(); ?>
-
-
 <?php
 get_footer();
 ?>
