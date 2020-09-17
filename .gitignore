@@ -28,7 +28,6 @@ readme.html
 wp-content/mu-plugins/
 !wp-content/plugins/
 # !wp-content/themes/
-# !wp-content/themes/lavender-portfolio/index.php
 
 #save only the themes
 !wp-content/themes/
